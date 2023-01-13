@@ -4,7 +4,7 @@ from opentele.td import TDesktop
 from opentele.api import UseCurrentSession
 from settings import settings
 
-async def convert_tdata():
+async def convert_tdata() ->  Coroutine:
     tdesk: TDesktop = TDesktop(settings.config['tdata_path'])
 
     assert tdesk.isLoaded()
