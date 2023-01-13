@@ -1,0 +1,4 @@
+{
+    "tdata_path": "./tdata", 
+    "file_out": "telethon.session"
+}
